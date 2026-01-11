@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Quran online with expert guidance at Ahmad Online Quran Academy. Free trial classes available!">
+    <meta name="keywords" content="Quran, Islamic studies, online Quran classes, Tajweed">
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Ahmad Online Quran Academy">
+    <meta property="og:description" content="Learn the Quran and Islamic Studies Online with Expert Guidance. Free trial classes available!">
+    <meta property="og:image" content="https://example.com/quran-background.jpg"> <!-- Replace with actual URL -->
+    <meta property="og:url" content="https://example.com"> <!-- Replace with your site URL -->
+    <title>Ahmad Online Quran Academy</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url('quran-background.webp'); /* Use WebP for better performance */
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            background-color: #e9f4ff; /* Fallback */
+            color: #333; 
+            line-height: 1.6; 
+            position: relative; 
+        }
+        body::before { 
+            content: ""; 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(255, 255, 255, 0.9); /* Increased opacity for better contrast */
+            z-index: -1; 
+        }
+        header { background-color: rgba(0, 123, 255, 0.95); color: white; text-align: center; padding: 2rem; }
+        nav { background-color: rgba(0, 86, 179, 0.95); padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+        nav a:hover, nav a:focus { text-decoration: underline; outline: 2px solid white; } /* Added focus for accessibility */
+        section { padding: 2rem; max-width: 1000px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.95); border-radius: 5px; margin-bottom: 1rem; }
+        .courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; } /* Grid for courses */
+        .course { background-color: #fff; border: 1px solid #ddd; padding: 1rem; border-radius: 5px; }
+        .course h3 { color: #007bff; }
+        .intro { background-color: #e9f4ff; padding: 1.5rem; border-radius: 5px; margin-top: 1rem; }
+        .offer { background-color: #fff3cd; border: 1px solid #ffeeba; padding: 1.5rem; border-radius: 5px; margin-top: 1rem; text-align: center; }
+        .offer .button { display: inline-block; background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .offer .button:hover, .offer .button:focus { background: #218838; outline: 2px solid #28a745; }
+        .whatsapp-button { 
+            position: fixed; 
+            bottom: 20px; 
+            right: 20px; 
+            background-color: #25d366; 
+            color: white; 
+            border-radius: 50%; 
+            width: 60px; 
+            height: 60px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 24px; 
+            text-decoration: none; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+            z-index: 1000; 
+            transition: transform 0.3s; 
+        }
+        .whatsapp-button:hover, .whatsapp-button:focus { transform: scale(1.1); outline: 2px solid #25d366; }
+        footer { background-color: rgba(51, 51, 51, 0.95); color: white; text-align: center; padding: 1rem; }
+        h1, h2, h3 { margin-top: 0; }
+        /* Form Styling */
+        form { max-width: 500px; margin: 0 auto; }
+        form label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        form input, form textarea { width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; }
+        form textarea { height: 100px; resize: vertical; }
+        form button { margin-top: 1rem; }
+        @media (max-width: 600px) { 
+            nav a { display: block; margin: 0.5rem 0; } 
+            .whatsapp-button { width: 50px; height: 50px; font-size: 20px; } 
+            form { max-width: 100%; }
+        }
+    </style>
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Ahmad Online Quran Academy",
+        "description": "Online Quran and Islamic studies courses with expert guidance.",
+        "url": "https://example.com", <!-- Replace with actual URL -->
+        "offers": [
+            {
+                "@type": "Course",
+                "name": "Basic Noorani Qaida Course",
+                "description": "Learn Arabic letters and pronunciation."
+            },
+            {
+                "@type": "Course",
+                "name": "Quran Reading",
+                "description": "Master Quran recitation with Tajweed."
+            },
+            {
+                "@type": "Course",
+                "name": "Quran Memorization course",
+                "description": "Learn techniques for memorizing the Quran."
+            },
+            {
+                "@type": "Course",
+                "name": "Learn Salat Step by Step",
+                "description": "Step-by-step guidance on performing Salat correctly."
+            }
+            <!-- Add more courses as needed -->
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Ahmad Online Quran Academy</h1>
+        <p>Learn the Quran and Islamic Studies Online with Expert Guidance</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Ahmad Online Quran Academy! We offer comprehensive online courses to help you learn the Quran, Islamic teachings, and essential practices. Whether you're a beginner or looking to deepen your knowledge, our expert instructors are here to guide you.</p>
+        <p>Explore our courses below and start your journey today.</p>
+        
+        <div class="intro">
+            <h3>About the Instructor</h3>
+            <p>Assalamu Alaikum!</p>
+            <p>I am Hafiz M Aliyan Saeed, an online Quran teacher. I have memorized the Holy Quran and specialize in teaching Tajweed, Quran recitation, and Quranic understanding to students of all ages. My teaching approach is patient, easy to follow, and tailored to help each student learn effectively from the comfort of their home.</p>
+            <p>Whether you are a beginner or want to improve your recitation, I am here to guide you step by step.</p>
+            <p>Join my online classes and start your Quran learning journey today!</p>
+        </div>
+        
+        <div class="offer">
+            <h3>Special Offer: Five Days Free Trial Classes!</h3>
+            <p>Experience our expert Quran teaching with no commitment. Sign up for a free 5-day trial and see the difference in your learning.</p>
+            <a href="#contact" class="button">Claim Your Free Trial</a>
+        </div>
+    </section>
+    
+    <section id="courses">
+        <h2>Courses</h2>
+        <p>We provide a range of courses tailored for all ages and skill levels. Enroll today and learn at your own pace!</p>
+        
+        <div class="courses-grid">
+            <div class="course">
+                <h3>Basic Noorani Qaida Course</h3>
+                <p>Learn the fundamentals of Arabic letters, pronunciation, and basic reading skills. Perfect for beginners starting their Quran journey.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Basic%20Noorani%20Qaida%20Course" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+            
+            <div class="course">
+                <h3>Quran Reading</h3>
+                <p>Master the art of reading the Quran fluently with proper Tajweed rules. Build confidence in recitation.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Quran%20Reading" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+            
+            <div class="course">
+                <h3>Quran Translation Course</h3>
+                <p>Understand the meanings of Quranic verses through detailed translations and explanations in English.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Quran%20Translation%20Course" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+            
+            <div class="course">
+                <h3>Islamic Studies for Kids</h3>
+                <p>Fun and engaging lessons on Islamic history, stories of prophets, and basic teachings designed for children.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Islamic%20Studies%20for%20Kids" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+            
+            <div class="course">
+                <h3>Quran Memorization course</h3>
+                <p>Learn effective techniques and methods for memorizing the Quran, building a strong foundation for lifelong retention.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Quran%20Memorization%20course" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+            
+            <div class="course">
+                <h3>Learn Salat Step by Step</h3>
+                <p>Step-by-step guidance on performing Salat (prayer) correctly, including postures, recitations, and timings.</p>
+                <p><a href="https://wa.me/923092257161?text=I'm%20interested%20in%20Learn%20Salat%20Step%20by%20Step" class="button" target="_blank" rel="noopener">Enroll Now</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to enroll? Reach out to us!</p>
+        <p>Phone: +92 309 2257161</p>
+        <p>Address: Sargodha, Pakistan</p>
+        
+        <!-- Send Message Form (Direct WhatsApp Connection) -->
+        <h3>Send Us a Message</h3>
+        <p>Fill out the form below, and we'll connect you directly to WhatsApp for instant communication.</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Type your message here..."></textarea>
+            
+            <button type="submit" class="button">Send Message via WhatsApp</button>
+        </form>
+    </section>
+    
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923092257161" target="_blank" rel="noopener" class="whatsapp-button" aria-label="Chat with us on WhatsApp" title="Chat with us on WhatsApp">
+        💬
+    </a>
+    
+    <footer>
+        <p>&copy; 2024 Ahmad Online Quran Academy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Handle form submission to connect directly to WhatsApp
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent default form submission
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            // Format the message for WhatsApp
+            const whatsappMessage = `Message from ${name} (${email}): ${message}`;
+            const encodedMessage = encodeURIComponent(whatsappMessage);
+            const whatsappURL = `https://wa.me/923092257161?text=${encodedMessage}`;
+
+            // Open WhatsApp with the pre-filled message
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
+</body>
+</html>
